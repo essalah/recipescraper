@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar target/recipe-scraper-1.0-SNAPSHOT.jar
+web: java $JAVA_OPTS -Dspring.profiles.active=prod -jar target/recipe-scraper-1.0-SNAPSHOT.jar --port $PORT target/*.war
