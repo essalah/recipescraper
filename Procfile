@@ -1,1 +1,1 @@
-web: java -jar target/recipe-scraper-1.0-SNAPSHOT.jar
+web: java -Dserver.port=$PORT -jar build/libs/target/recipe-scraper-1.0-SNAPSHOT.jar
