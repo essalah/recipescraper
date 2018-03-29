@@ -1,6 +1,7 @@
 package com.essalah.recipescraper;
 
 import com.essalah.recipescraper.services.AllRecipeService;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
@@ -16,11 +17,5 @@ public class RecipeApiController {
             e.printStackTrace();
             return null;
         }
-    }
-
-    @RequestMapping("/")
-    @ResponseBody
-    String sayHello() {
-        return "hello, world";
     }
 }
