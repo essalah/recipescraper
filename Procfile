@@ -1,0 +1,1 @@
+web: java -jar target/recipe-scraper-1.0-SNAPSHOT.jar
